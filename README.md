@@ -4,6 +4,11 @@ Having to type out a handwritten document can be a time-consuming and cumbersome
 
 Additionally, this tool could be used to help collectives with special needs, such as blind people, by reading out loud a handwritten document. As an annex to the project's main goal, if time is not too harsh with us and the NN works satisfactorily, we would like to automatize the process of sending the predicted alphanumerical characters to any voice algorithm, such as Google Translator, in order for it to read it out loud. This has not yet been implemented.
 
+<p align="center">
+  <img src="figures/MNISTnumb.jpg" alt="Figure 1" width="400"/>
+  <img src="figures/externalnum.jpg" alt="Figure 2" width="400"/>
+</p>
+
 # The Algorithm: Support Vector Machine (SVM)
 
 SVM (Support Vector Machine) is a classification and regression technique suitable for problems in which the analysis of data involves a reasonably extensive number of relevant characteristics.
@@ -12,17 +17,13 @@ SVM (Support Vector Machine) is a classification and regression technique suitab
 
 The general idea of how SVM operates is based on mapping the data into a high-dimensional vector space. Using this method, each data element can be associated with a point. When all the points are set and the data has been separated into categories, a hypersurface that discriminates between categories arises. This hypersurface needs to be transformed into a hyperplane for optimal error processing. Finally, new data can be tested to predict the class it belongs to.
 
-## Space Transformation using Kernel Function
-
-<img src="images/Kernel_Machine.svg.png" alt="Space Transformation using Kernel function" width="60%" />
-
-Figure 1: Space Transformation using Kernel function. [**Source**](https://en.wikipedia.org/wiki/File:Kernel_Machine.svg).
-
 ## Kernel Functions
 
 The mathematical object that transforms hypersurfaces into hyperplanes is known as a kernel function. Some of the most common kernel functions are: Linear, Polynomial, and Sigmoid.
 
 The usage of one or the other depends on the complexity of the problem, and it is usually recommended to test all of them to see which one performs better.
+
+![Frequency vs Potential](figures/svm.jpg)
 
 # Future work
 
