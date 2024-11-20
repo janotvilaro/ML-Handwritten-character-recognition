@@ -23,7 +23,7 @@ The mathematical object that transforms hypersurfaces into hyperplanes is known 
 
 The usage of one or the other depends on the complexity of the problem, and it is usually recommended to test all of them to see which one performs better.
 
-![Frequency vs Potential](figures/svm.jpg)
+![SVM](figures/svm.jpg)
 
 # Future work
 
