@@ -2,7 +2,7 @@
 
 Having to type out a handwritten document can be a time-consuming and cumbersome task that anyone would like to avoid, to the extent possible. Consequently, this project's goal is to train and adjust a Neuronal Network to be able to recognize handwritten alphanumerical characters and, if possible, words.
 
-Additionally, this tool could be used to help collectives with special needs, such as blind people, by reading out loud a handwritten document. As an annex to the project's main goal, if time is not too harsh with us and the NN works satisfactorily, we would like to automatize the process of sending the predicted alphanumerical characters to any voice algorithm, such as Google Translator, in order for it to read it out loud. This has not yet been implemented.
+Additionally, this tool could be used to help collectives with special needs, such as blind people, by reading out loud a handwritten document. As an annex to the project's main goal, if the NN works satisfactorily, we would like to automatize the process of sending the predicted alphanumerical characters to any voice algorithm, such as Google Translator, in order for it to read it out loud. This has not yet been implemented.
 
 <p align="center">
   <img src="figures/MNISTnumb.jpg" alt="Figure 1" width="220"/>
